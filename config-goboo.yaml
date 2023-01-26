@@ -1,0 +1,8 @@
+configuration:
+  service_name: golang-todo
+  domains:
+  - activity groups
+  - todo items
+  aggregate: []
+only_goboo_can_write:
+  service_name: golang-todo
