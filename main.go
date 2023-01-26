@@ -23,6 +23,17 @@ import (
 )
 
 func main() {
+	// os.Setenv("DB_DRIVERNAME", "mysql")
+	// os.Setenv("MYSQL_USER", "root")
+	// os.Setenv("MYSQL_PASSWORD", "2323271109")
+	// os.Setenv("MYSQL_HOST", "localhost")
+	// os.Setenv("MYSQL_PORT", "3306")
+	// os.Setenv("MYSQL_DBNAME", "todo")
+
+	// os.Setenv("PORT", "3030")
+	// os.Setenv("ENV", "local")
+	// os.Setenv("GIN_MODE", "debug")
+
 	routers := gin.Default()
 
 	mysql := ConnectMySQL()
